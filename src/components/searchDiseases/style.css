@@ -1,0 +1,11 @@
+.containerSearchBox {
+   
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 0 rem 1rem;
+    justify-items: center;
+    align-items: flex-end;
+    display: flex;
+    box-sizing: content-box;
+    width: 350px;
+}

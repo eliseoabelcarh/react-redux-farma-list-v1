@@ -5,8 +5,6 @@ import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import Title from './Title';
-import initialState from '../../store/initialState'
 
 import Paper from '@material-ui/core/Paper';
 
@@ -46,7 +44,7 @@ export default function Orders(props) {
     return (
         <React.Fragment>
             <Paper className={classes.paper}>
-                <Title>Recent Orders</Title>
+
                 <Table size="small">
                     <TableHead>
                         <TableRow>

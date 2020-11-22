@@ -105,7 +105,7 @@ export default function View(props) {
             showNotification()
             findResults('.')
             setTimeout(() => {
-                goTo('/')
+                goTo('/medicamentos')
             }, 2500)
 
         } else {

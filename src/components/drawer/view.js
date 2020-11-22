@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
 import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -28,7 +27,9 @@ export default function View(props) {
 
     const links = [
         { titulo: 'Home', link: '/' },
+        { titulo: 'Medicamentos', link: '/medicamentos' },
         { titulo: 'Results', link: '/results' },
+        { titulo: 'Consultorio', link: '/consultorio' },
     ]
 
     const handleClick = (rutaLink) => {
