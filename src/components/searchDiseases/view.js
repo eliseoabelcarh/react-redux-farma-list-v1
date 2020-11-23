@@ -28,9 +28,9 @@ export default function View(props) {
                     id="outlined-search"
                     label="Buscar nombre de medicamento"
                     type="search"
-                    variant="outlined"
+                    color="secondary"
                     onChange={(event) => handleTag(event)}
-
+                    variant="filled"
                     fullWidth={true}
                 />
             </div>

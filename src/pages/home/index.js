@@ -8,8 +8,13 @@ class Home extends Component {
 
     render() {
 
+        const datos = {
+            title: 'HOME',
+        }
         return (
-            <View />
+            <View
+                data={datos}
+            />
         )
     }
 }

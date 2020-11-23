@@ -1,0 +1,22 @@
+.container {
+
+  min-height: 600px;
+  max-width: 900px;
+  margin: 50px auto
+
+}
+
+.card{
+  padding: 10px;
+ min-height: 600px;
+  max-width: 900px;
+  background-size: fill;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url("../../assets/2.svg");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #05121f;
+}
